@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Abc Logistic</title>
+</head>
+
+<body>
+
+    <header>
+        <img class="logo" src="imagens/logo.png">
+        <div class="pill-wew">
+            <a class="desactive" href="cadastro.html">Cadastre-se</a>
+        </div>
+    </header>
+    <div class="login">
+        <form action="inicio.html" class="login2">
+            <div class="login__welcome">
+                <center>
+                    <h2 class="login__welcome-title">
+                        Agendamento
+                    </h2>
+                </center>
+                </span>
+                <form class="form-horizontal form-row form-login login__form" role="form" method="POST" action="https://estudante.sesisenai.org.br/login">
+                    <input type="hidden" name="_token" value="cG5QFORF7DkMoa19HVZWOXXAWTy25G4ckjA020X7">
+                    <div class="col col-sm-6 col-12">
+                        <div class="d-block">
+                            <div class="login__input-wrapper">
+                                <div class="login__input-icon">
+                                    <i class="material-icons">nome: </i>
+                                </div>
+                                <input type="text" required="" data-native-error="Preencha este campo." class="form-control" placeholder="Digite seu nome" name="user" value="">
+                            </div>
+
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+
+                    <div class="col col-sm-6 col-12">
+                        <div class="d-block">
+                            <div class="login__input-wrapper">
+                                <div class="login__input-icon">
+                                    <i class="material-icons">agendar:</i>
+                                </div>
+                                <input type="text" data-native-error="Preencha este campo." class="form-control" placeholder="agendamento" name="password">
+                            </div>
+                            <div class="help-block with-errors"></div>
+
+                            <form>
+                                <div>
+                                    <i class="material-icons">data e hora :<br></i>
+                                    <input type="datetime-local" id="diaa" name="diaa">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="col login__bottom">
+                        <center>
+                            <div class="d-block">
+                                <br><button type="submit" class="btn login__btn">Agendar</button>
+                            </div>
+                        </center>
+                    </div>
+                </form>
+            </div>
+
+        </form>
+    </div>
+    <footer>
+        <center>
+            <p> <img class="logo" src="imagens/logo.png"> </p>
+        </center>
+
+    </footer>
+    <div class="sidebar">
+        <center>
+            <p> <img class="l1" src="imagens/logo.png"> </p>
+        </center>
+        <h1> Menu </h1>
+        <a href="inicio.html">Agendamentos</a>
+        <a href="configurações.html">Configurações</a>
+        <a href="relatorios.html">Relatorios</a>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Abc Logistic</title>
+</head>
+
+<body>
+
+    <header>
+        <img class="logo" src="imagens/logo.png">
+        <div class="pill-wew">
+            <a class="desactive" href="cadastro.html">Cadastre-se</a>
+        </div>
+    </header>
+    <div class="login">
+        <form action="inicio.html" class="login2">
+            <div class="login__welcome">
+                <center>
+                    <h1 class="login__welcome-title">
+                        LOGIN
+                    </h1>
+                </center>
+                </span>
+                <form class="form-horizontal form-row form-login login__form" role="form" method="POST" action="https://estudante.sesisenai.org.br/login">
+                    <input type="hidden" name="_token" value="cG5QFORF7DkMoa19HVZWOXXAWTy25G4ckjA020X7">
+                    <div class="col col-sm-6 col-12">
+                        <div class="d-block">
+                            <div class="login__input-wrapper">
+                                <div class="login__input-icon">
+                                    <i class="material-icons">CPF/CNPJ: </i>
+                                </div>
+                                <input type="text" required="" data-native-error="Preencha este campo." class="form-control" placeholder="Usuário" name="user" value="">
+                            </div>
+
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+
+                    <div class="col col-sm-6 col-12">
+                        <div class="d-block">
+                            <div class="login__input-wrapper">
+                                <div class="login__input-icon">
+                                    <i class="material-icons">Senha:</i>
+                                </div>
+                                <input type="password" required="" data-native-error="Preencha este campo." class="form-control" placeholder="Senha" name="password">
+                            </div>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+
+                    <div class="col login__bottom">
+                        <center>
+                            <div class="d-block">
+                                <br><button type="submit" class="btn login__btn">Entrar</button>
+                            </div>
+                        </center>
+                    </div>
+                </form>
+            </div>
+
+        </form>
+    </div>
+    <footer>
+        <center>
+            <p> <img class="logo" src="imagens/logo.png"> </p>
+        </center>
+
+    </footer>
+
+</body>
+
+</html>
